@@ -1,0 +1,2 @@
+##
+*/1 * * * * /opt/bitcoin-0.17.1/bin/bitcoin-cli --regtest=1 generate 1
