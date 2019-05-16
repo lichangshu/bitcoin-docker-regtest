@@ -8,3 +8,7 @@ mining per minites, config in cron .
 
 ### 说明 ( NOTE )
 Copy from https://github.com/kylemanna/docker-bitcoind 。
+
+### 端口 (server port)
+
+ > bitcoin-chain: 8332, 8333,  bitcoin-test-chain: 18332,18333,  bitcoin-reg-test-chain: 18443,18444
