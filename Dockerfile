@@ -33,7 +33,8 @@ RUN apt-get clean && rm -rf /tmp/* /var/tmp/*
 
 VOLUME ["/bitcoin"]
 
-EXPOSE 8332 8333 18332 18333
+# def:8332/8333, test:18332,18333, regtest:18443,18444
+EXPOSE 8332 8333 18332 18333 18443 18444
 
 WORKDIR $HOME
 
